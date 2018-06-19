@@ -13,7 +13,8 @@ function moveDodgerLeft() {
 
 function moveDodgerRight() {
   var leftNumbers = dodger.style.left.replace('px', '')
-  var right = parseInt(leftNumbers, 10) + 40
+  var left = parseInt(leftNumbers, 10)
+  var right = left + 40
  
   if (right < 400) {
     dodger.style.left = `${left + 1}px`
