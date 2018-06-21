@@ -2,8 +2,7 @@ Moving Things with JavaScript
 ---
 
 ## Objectives
-
-1. Explain how to update an element's position on the page
+dihow to update an element's position on the page
 2. Practice updating an element's position on the page
 3. Practice moving an element in response to a browser event
 
