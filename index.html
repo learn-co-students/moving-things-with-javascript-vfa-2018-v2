@@ -13,6 +13,7 @@
       var dodger = document.getElementById('dodger')
       dodger.style.backgroundColor = '#FF69B4'
       dodger.style.left // "180px"
+      doger.style.right
       dodger.style.bottom = "0px"
     
       function moveDodgerLeft() {
@@ -28,8 +29,6 @@
              moveDodgerLeft()
             }
       })
-
-      
       
       function moveDodgerRight() {
         var rightNumbers = dodger.style.right.replace('px', '')
