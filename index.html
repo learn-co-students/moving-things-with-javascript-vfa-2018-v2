@@ -14,9 +14,15 @@
       dodger.style.backgroundColor = '#FF69B4'
       dodger.style.left // "180px"
       dodger.style.bottom = "0px"
-     
-      function moveDodgerLeft() {
-  var rightNumbers = dodger.style.left.replace('px', '')
+      document.addEventListener('keydown', function(e) {
+  
+document.addEventListener('keydown', function(e) {
+  if (e.which === 37) {
+    moveDodgerRight()
+  }
+})
+      function moveDodgerRight() {
+  var rightNumbers = dodger.style.right.replace('px', '')
   var right = parseInt(rightNumbers, 10)
 
   if (left > 0) {
