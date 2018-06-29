@@ -10,3 +10,9 @@ document.addEventListener('keydown', function(e) {
     dodger.style.right = `${right - 1}px`
   }
 })
+
+document.addEventListener('keydown', function(e) {
+  if (e.which === 39) {
+    moveDodgerRight()
+  }
+})
