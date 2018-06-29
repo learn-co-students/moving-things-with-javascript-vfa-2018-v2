@@ -10,3 +10,4 @@ document.addEventListener('keydown', function(e) {
     dodger.style.right = `${right - 1}px`
   }
 })
+var dodger = document.getElementById('dodger')
